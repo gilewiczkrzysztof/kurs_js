@@ -1,1 +1,1 @@
-Kurs gita i js witam wszysztkich derdecznie krzysztof Gilewicz
+Kurs gita i js witam wszysztkich serdecznie krzysztof Gilewicz
