@@ -9,9 +9,9 @@ console.log(age)
 let color = 'red'
 console.log(color)
 if (color == 'red') {
-	console.log('kolor jet ok czyli czerwony')
+	console.log('kolor jet ok czyli czerwony 👀')
 } else {
-	console.log('kolor jest zły')
+	console.log('kolor jest zły 🙌')
 }
 // //-------------------------------------
 // let dey = 'mondey'
@@ -33,21 +33,21 @@ if (color == 'red') {
 // } else {
 // 	console.log(`jest dokładnie ${wynik} i jest to więcej niż 10`)
 // }
-// ---------------------------------------
-// const promocja = '40'
-// switch (promocja) {
-// 	case '10':
-// 		console.log('Promocja na dziś to 10%!😀')
-// 		break
-// 	case '20':
-// 		console.log('Promocja na dziś to aż 20%!🤣😀')
-// 		break
-// 	case '30':
-// 		console.log('Niesamowite promocja sięga aż 30%!😇😀😆')
-// 		break
-// 	default:
-// 		console.log(`I stało się mamy ${promocja} zniżki tak trzymać 👍`)
-// }
+//---------------------------------------
+const promocja = '10'
+switch (promocja) {
+	case '10':
+		console.log('Promocja na dziś to 10%!😀')
+		break
+	case '20':
+		console.log('Promocja na dziś to aż 20%!🤣😀')
+		break
+	case '30':
+		console.log('Niesamowite promocja sięga aż 30%!😇😀😆')
+		break
+	default:
+		console.log(`I stało się mamy ${promocja} zniżki tak trzymać 👍`)
+}
 //----------------------------------------
 // const animals = ['🫥', '😻', '👍', '👎']
 
