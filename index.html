@@ -23,20 +23,6 @@
 
     <script src="js/main.js"></script>
 
-    <!-- Stopka z aktualną datą -->
-    <footer id="site-footer" style="text-align:center; padding:12px 0; border-top:1px solid #e0e0e0; margin-top:20px;">
-        <small id="current-date" aria-live="polite"></small>
-    </footer>
-
-    <script>
-        (function() {
-            const el = document.getElementById('current-date');
-            if (!el) return;
-            const now = new Date();
-            const dateStr = now.toLocaleDateString('pl-PL', { year: 'numeric', month: 'long', day: 'numeric' });
-            el.textContent = `© ${now.getFullYear()} — ${dateStr}`;
-        })();
-    </script>
 </body>
 
 </html>
